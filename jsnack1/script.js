@@ -1,13 +1,11 @@
-// Generare una lista di nomi random
-// Generare una lista di cognomi random
-// Crea una funzione in grado di selezionare in modo random un nome dalla lista
-// Controlla che la funzione sia corretta con console.log()
-// Crea una funzione in grado di selezionare in modo random un nome dalla lista
-// Controlla che la funzione sia corretta con console.log()
-// Crea una funzione in grado di selezionare in modo random un nome e un cognome dalle liste
-// Controlla che la funzione sia corretta con console.log()
 
-
+// 1) Creo una lista di nomi 
+// 2) Creo una lista di cognomi
+// 3) Creo una lista degli invitati vuota, nella quale verranno inseriti i nomi degli invitati
+// 4) Creo un ciclo for
+// 5) Creo una costante sia per i nomi sia per i cognomi selezionati in modo random 
+// 6) Creo una nuova costante in cui sono inseriti i nomi completi random degli invitati
+// 7) Aggiungo la lista nella lista degli invitati vuota creata all'inizio
 
 const nameList = ["Luca", "Marco", "Paola", "Matteo", "Giovanna", "Simona"];
 const surnameList = ["Rossi", "Verdi", "Bianchi","Celeste", "Smeraldi", "Amaranto"];
