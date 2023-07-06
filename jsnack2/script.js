@@ -13,10 +13,10 @@ Procedimento:
 const listNumbers = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70];
 let sumOddNumbers = 0;
 
-for (i = 0; i < listNumbers.length, i++) {
+for (let i = 0; i < listNumbers.length, i++) {
 
     if (i % 2 !== 0) { // Questa condizione verifica se l'indice è dispari  
-
+        console.log(`I numeri in posizione dispari sono: ${listNumbers[i]}`);
         sumOddNumbers += listNumbers[i];
     }
 
