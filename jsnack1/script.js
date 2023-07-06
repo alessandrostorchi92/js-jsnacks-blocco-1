@@ -11,15 +11,16 @@ const nameList = ["Luca", "Marco", "Paola", "Matteo", "Giovanna", "Simona"];
 const surnameList = ["Rossi", "Verdi", "Bianchi","Celeste", "Smeraldi", "Amaranto"];
 const guestRandomList = []
 
-for (let i = 0; i < 10; i++) {
-    const getNameRandom = nameList[Math.floor(Math.random() * nameList.length)];
-    const getSurnameRandom = surnameList[Math.floor(Math.random() * surnameList.length)];
-    const getFullnameRandom = `${getNameRandom} ${getSurnameRandom}`;
+for (let i = 0; i < 6; i++) {
+    let getNameRandom = nameList[Math.floor(Math.random() * parseInt(nameList.length))];
+    let getSurnameRandom = surnameList[Math.floor(Math.random() * parseInt(surnameList.length))];
+    let getFullnameRandom = `${getNameRandom} ${getSurnameRandom}`;
     guestRandomList.push(getFullnameRandom);
 }
 
 console.log(guestRandomList);
 
+// Domanda per Florian: Com faccio a fare in modo che il nome degli invitati non venga ripetuto?
 
 // considerazioni
 
