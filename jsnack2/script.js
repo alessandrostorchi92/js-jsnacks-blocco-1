@@ -1,6 +1,6 @@
 // Consegna: Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari.
 
-Procedimento:
+// Procedimento:
 
 // 1) Crea un array di numeri interi
 // 2) Crea una variabile di partenza = 0, dalla quale in seguito verrà calcolata la somma di tutti i numeri in posizione dispari.
@@ -13,7 +13,7 @@ Procedimento:
 const listNumbers = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70];
 let sumOddNumbers = 0;
 
-for (let i = 0; i < listNumbers.length, i++) {
+for (let i = 0; i < listNumbers.length; i++) {
 
     if (i % 2 !== 0) { // Questa condizione verifica se l'indice è dispari  
         console.log(`I numeri in posizione dispari sono: ${listNumbers[i]}`);

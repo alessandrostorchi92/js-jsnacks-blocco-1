@@ -11,7 +11,7 @@ const nameList = ["Luca", "Marco", "Paola", "Matteo", "Giovanna", "Simona"];
 const surnameList = ["Rossi", "Verdi", "Bianchi","Celeste", "Smeraldi", "Amaranto"];
 const guestRandomList = []
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 10; i++) {
     let getNameRandom = nameList[Math.floor(Math.random() * parseInt(nameList.length))];
     let getSurnameRandom = surnameList[Math.floor(Math.random() * parseInt(surnameList.length))];
     let getFullnameRandom = `${getNameRandom} ${getSurnameRandom}`;
