@@ -8,14 +8,19 @@
 // 7) Aggiungo la lista nella lista degli invitati vuota creata all'inizio
 
 const nameList = ["Luca", "Marco", "Paola", "Matteo", "Giovanna", "Simona"];
-const surnameList = ["Rossi", "Verdi", "Bianchi","Celeste", "Smeraldi", "Amaranto"];
+const surnameList = ["Rossi", "Verdi", "Bianchi", "Celeste", "Smeraldi", "Amaranto"];
 const guestRandomList = []
 
 for (let i = 0; i < 10; i++) {
     let getNameRandom = nameList[Math.floor(Math.random() * parseInt(nameList.length))];
     let getSurnameRandom = surnameList[Math.floor(Math.random() * parseInt(surnameList.length))];
     let getFullnameRandom = `${getNameRandom} ${getSurnameRandom}`;
-    guestRandomList.push(getFullnameRandom);
+    if (guestRandomList.includes(getFullnameRandom)) {
+        getFullnameRandom = "";
+    } else {
+        guestRandomList.push(getFullnameRandom);
+    }
+
 }
 
 console.log(guestRandomList);
